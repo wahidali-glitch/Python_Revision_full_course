@@ -13,3 +13,6 @@ print(is_published) #boolean
 course_name = "Python Programming"
 print(course_name) #string 
 #used to express text data, can be defined using single or double quotes
+# give such varibles name that can explain your vairable, for example course_name is a good name for a variable that stores the name of a course
+# variables should not start with a number, and should not contain any special characters except for underscore (_)
+# msut be in small letters 
