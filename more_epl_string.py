@@ -12,3 +12,5 @@ print(course[0]) #first character of string
 print(course[-1]) #last character of string
 print(course[-1]) #last character of string
 print(course[0:6]) #first 6 characters of string
+course = "Python \"Programming\"" # this is how we can use double quotes inside a string
+print(course)
