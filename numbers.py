@@ -11,3 +11,10 @@ a = 2 + 3j
 b = 1 + 2j
 c = a + b
 print(c) # Complex number
+print( 10 +3)
+print(10 - 3)
+print(10 * 3)   
+print(10 / 3) # this will return a float
+print(10 // 3) # this will return an integer    
+print(10 % 3) # this will return the remainder of the division
+print(10 ** 3) # this will return 10 raised to the power of 3
