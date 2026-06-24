@@ -18,3 +18,6 @@ print(10 / 3) # this will return a float
 print(10 // 3) # this will return an integer    
 print(10 % 3) # this will return the remainder of the division
 print(10 ** 3) # this will return 10 raised to the power of 3
+x = 10
+x += 3 # this is equivalent to x = x + 3    
+print(x) # this will print 13
