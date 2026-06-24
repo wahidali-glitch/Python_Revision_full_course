@@ -17,3 +17,13 @@ print(course)
  # hash sign (#) is used to write comments in python, comments are ignored by the interpreter and are used to explain the code to other developers or to yourself when you come back to the code after a long time  
 course = "Python \n Programming"
 print(course) # \n is used to create a new line in a string
+#concatenation of strings is done using + operator
+first_name = "Wahid"
+last_name = "Ali"
+full_name = first_name + " " + last_name
+print(full_name) #concatenation of strings
+# formatting strings is done using f-strings
+first_name = "Wahid"
+last_name = "Ali"
+full_name = f"{first_name} {last_name}"
+print(full_name) #formatting strings
