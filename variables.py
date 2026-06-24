@@ -16,3 +16,4 @@ print(course_name) #string
 # give such varibles name that can explain your vairable, for example course_name is a good name for a variable that stores the name of a course
 # variables should not start with a number, and should not contain any special characters except for underscore (_)
 # msut be in small letters 
+# space around the equal sign is optional, but it is a good practice to use space around the equal sign for better readability
