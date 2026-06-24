@@ -14,3 +14,6 @@ print(course[-1]) #last character of string
 print(course[0:6]) #first 6 characters of string
 course = "Python \"Programming\"" # this is how we can use double quotes inside a string
 print(course)
+ # hash sign (#) is used to write comments in python, comments are ignored by the interpreter and are used to explain the code to other developers or to yourself when you come back to the code after a long time  
+course = "Python \n Programming"
+print(course) # \n is used to create a new line in a string
