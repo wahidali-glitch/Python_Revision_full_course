@@ -6,3 +6,9 @@ for message in ["Hello", "World", "Python"]:
 for i in range(5):
     for j in range(3):
         print(f"i: {i}, j: {j}")
+
+successful = True
+for attempt in range(3):
+    if successful:
+        print("Successful")
+        break
