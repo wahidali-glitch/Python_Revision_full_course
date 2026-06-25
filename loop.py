@@ -21,3 +21,5 @@ for a in range(5):
     for b in range(3):
         print(f"a: {a}, b: {b}")
 # the concept of nested loops is that we have a loop inside another loop. The inner loop will run completely for each iteration of the outer loop. In this example, for each value of a from 0 to 4, the inner loop will run 3 times, printing the current values of a and b.
+print(type(5))
+print(type (range(5)))
