@@ -39,3 +39,8 @@ while number > 0:
         if command == "quit":
             break
         print("ECHO", command)
+
+for i in range(1,10):
+    if i % 2 == 0:
+        continue  # This will skip the rest of the loop body for odd numbers and move to the next iteration.
+    print(i)
