@@ -12,3 +12,12 @@ for attempt in range(3):
     if successful:
         print("Successful")
         break
+for x in range(5):
+    if x % 2 == 0:
+        print(f"{x} is even")
+    else:
+        print(f"{x} is odd")
+for a in range(5):
+    for b in range(3):
+        print(f"a: {a}, b: {b}")
+# the concept of nested loops is that we have a loop inside another loop. The inner loop will run completely for each iteration of the outer loop. In this example, for each value of a from 0 to 4, the inner loop will run 3 times, printing the current values of a and b.
