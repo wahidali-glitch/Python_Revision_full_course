@@ -9,3 +9,8 @@ x = int(input("X: "))
 print(type(x))  # This will print <class 'int'>, confirming that x is now an integer
 y = x + 1
 print("Y:", y)  
+# only tricky one is bool
+z = bool(input("Enter a boolean value (True/False): "))
+# falsy values in Python include: False, None, 0, 0.0, '', [], {}, set(), and any other empty or zero-like value. Any non-empty or non-zero value is considered truthy.
+print("Z:", z)
+print("bool(0):", bool(0))  # This will return False
